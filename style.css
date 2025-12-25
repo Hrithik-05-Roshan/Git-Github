@@ -18,7 +18,7 @@ html,body{
     height: 60px;
     width: 100%;
     font-size: 19px;
-    background-color:rgb(184, 255, 41) ;
+    /* background-color:rgb(184, 255, 41) ; */
     padding: 40px 60px;
 }
 .nav-tag{
@@ -26,11 +26,23 @@ html,body{
     gap: 50px;
     font-size: 20px;
 }
+.nav-tag h4{
+    background-color: rgb(153, 255, 0);
+    padding: 4px 14px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 400;
+}
 .nav h2{
-    font-weight: 1000;
+    border: 2px solid black;
+    font-weight: 500;
     display: flex;
     gap: 20px;
+    background-color: rgb(153, 255, 0);
+    padding: 8px 25px;
     align-items: center;
+    border-radius: 50px;
 }
 .nav h2 svg{
     color:black;
@@ -42,13 +54,15 @@ html,body{
     padding: 0 60px;
     flex-direction: column;
     display: flex;
-    background-color: lightseagreen;
-    justify-content: space-between;
+    /* background-color: lightseagreen; */
+    gap: 50px;
 }
 .screen-left h2{
+    color: rgb(72, 9, 101);
     font-weight: 700;
     font-size: 100px;
 }
 .screen-left p{
     font-size: 25px;
+    color: black;
 }
