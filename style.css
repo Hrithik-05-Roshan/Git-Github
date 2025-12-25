@@ -1,68 +1,86 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family:monospace;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-html,body{
-    height: 100vh;
-    width: 100%;
-    background-color: #fff;
-    color: black;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  color: black;
 }
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    width: 100%;
-    font-size: 19px;
-    /* background-color:rgb(184, 255, 41) ; */
-    padding: 40px 60px;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: aqua;
 }
-.nav-tag{
-    display: flex;
-    gap: 50px;
-    font-size: 20px;
+.nav-tag {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
 }
-.nav-tag h4{
-    background-color: rgb(153, 255, 0);
-    padding: 4px 14px;
-    border-radius: 20px;
-    border: 1px solid black;
-    color: black;
-    font-weight: 400;
+.nav-tag h4 {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
 }
-.nav h2{
-    border: 2px solid black;
-    font-weight: 500;
-    display: flex;
-    gap: 20px;
-    background-color: rgb(153, 255, 0);
-    padding: 8px 25px;
-    align-items: center;
-    border-radius: 50px;
+.nav-tag button {
+  padding: 10px 20px;
 }
-.nav h2 svg{
-    color:black;
+.nav h2 {
+  font-weight: 800;
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  /* padding: 8px; */
+  align-items: center;
 }
-.screen-left{
-    margin-top: 7%;
-    height: 50%;
-    width: 65%;
-    padding: 0 60px;
-    flex-direction: column;
-    display: flex;
-    /* background-color: lightseagreen; */
-    gap: 50px;
+.nav h2 svg {
+  color: black;
+  font-size: 10px;
 }
-.screen-left h2{
-    color: rgb(72, 9, 101);
-    font-weight: 700;
-    font-size: 100px;
+
+.main {
+  display: flex;
+  padding: 10px 40px;
 }
-.screen-left p{
-    font-size: 25px;
-    color: black;
+.screen-left {
+  margin-top: 4%;
+  height: 50%;
+  width: 50%;
+  /* padding: 0 60px; */
+  flex-direction: column;
+  display: flex;
+  background-color: lightseagreen;
+  gap: 40px;
+}
+.screen-left h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 55px;
+  font-family: monospace;
+}
+.screen-left p {
+  font-size: 20px;
+  color: black;
+}
+.screen-left button{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.screen-right {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 4%;
+  background-color: orange;
 }
